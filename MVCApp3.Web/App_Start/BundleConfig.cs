@@ -26,6 +26,14 @@ namespace MVCApp3.Web
 
             bundles.Add(Foundation.Scripts());
             #endregion
+
+            bundles.Add(new StyleBundle("~/Content/Foundation/css").Include(
+            "~/Content/css/foundation.min.css",
+            "~/Content/css/normalize.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/foundation").Include(
+                        "~/Scripts/foundation/foundation.js",
+                        "~/Scripts/foundation/foundation.*"));
         }
     }
 }
