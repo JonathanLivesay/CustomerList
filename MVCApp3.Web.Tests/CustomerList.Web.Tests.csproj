@@ -93,9 +93,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MVCApp3.Web\MVCApp3.Web.csproj">
+    <ProjectReference Include="..\MVCApp3.Web\CustomerList.Web.csproj">
       <Project>{DFD6051E-0F94-4F03-9224-0A9807F4E953}</Project>
-      <Name>MVCApp3.Web</Name>
+      <Name>CustomerList.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

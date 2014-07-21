@@ -307,9 +307,9 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MVCApp3.Domain\MVCApp3.Domain.csproj">
+    <ProjectReference Include="..\MVCApp3.Domain\CustomerList.Domain.csproj">
       <Project>{2cfbcad4-251b-428e-999c-1448b63f26c1}</Project>
-      <Name>MVCApp3.Domain</Name>
+      <Name>CustomerList.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
